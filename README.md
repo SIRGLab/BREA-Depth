@@ -6,7 +6,7 @@ Monocular depth estimation in bronchoscopy can significantly improve real-time n
 To address this, we propose Brea-Depth, a novel framework that integrates airway-specific geometric priors into foundation model adaptation for bronchoscopic depth estimation. Our method introduces a depth-aware CycleGAN, refining the translation between real bronchoscopic images and airway geometries from anatomical data, effectively bridging the domain gap. In addition, we introduce an airway structure awareness loss to enforce depth consistency within the airway lumen while preserving smooth transitions and structural integrity. By incorporating anatomical priors, Brea-Depth enhances model generalization and yields more robust, accurate 3D airway reconstructions. To assess anatomical realism, we introduce Airway Depth Structure Evaluation, a new metric for structural consistency.
 We validate BREA-Depth on a collected ex-vivo human lung dataset and an open bronchoscopic dataset, where it outperforms existing methods in anatomical depth preservation.
 
-![image](Fig/OverviewV1.png)
+![image](Fig/Overview.png)
 
 
 ## Dataset
