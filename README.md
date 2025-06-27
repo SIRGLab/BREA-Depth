@@ -21,3 +21,9 @@ We validate BREA-Depth on a collected ex-vivo human lung dataset and an open bro
 python Infer.py --input_folder Input --output_folder Output 
 ```
 Our trained weights can be downloaded from this link: [Download Trained Weights](https://uoe-my.sharepoint.com/:f:/g/personal/xzhang19_ed_ac_uk/ElxJu_eRjeFIhQCUXygyc50BMhc1fB0INsz457FCE0ZT8A?e=6Vc4Ek)
+
+You can also generate a side-by-side RGB and depth estimation video for visual inspection:
+
+```bash
+python Infer_Video.py --input_folder Sample
+```
