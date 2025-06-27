@@ -27,3 +27,13 @@ You can also generate a side-by-side RGB and depth estimation video for visual i
 ```bash
 python Infer_Video.py --input_folder Sample
 ```
+
+**Important Notes:**
+
+- Input frames must be RGB images (`.jpg`, `.png`, or `.jpeg`) with 3 channels.
+
+- The inference script must set `real=False` in the forward pass:
+
+  ```python
+  self.model(image_with_depth, real=False)
+  ```
