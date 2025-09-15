@@ -37,3 +37,17 @@ python Infer_Video.py --input_folder Sample
   ```python
   self.model(image_with_depth, real=False)
   ```
+
+
+## Citing
+
+If you find this work useful, please consider our paper to cite:
+
+```
+@inproceedings{brea_depth2025,
+  author    = {Francis Xiatian Zhang and Emile Mackute and Mohammadreza Kasaei and Kevin Dhaliwal and Robert Thomson and Mohsen Khadem},
+  title     = {{BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation}},
+  booktitle = {Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2025},
+  year      = {2025},
+}
+```
