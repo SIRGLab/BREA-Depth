@@ -1,4 +1,6 @@
-The GitHub page for our work, BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation, is now available. Currently, only the inference code and a sample of our proposed dataset have been released. The full code and dataset will be made available upon acceptance.
+The GitHub page for our work, BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation, is now available. Currently, only the inference code and a sample of our proposed dataset have been released. 
+
+For more details, please see our [MICCAI 2025 paper](https://papers.miccai.org/miccai-2025/paper/2574_paper.pdf).
 
 ## Overview
 
